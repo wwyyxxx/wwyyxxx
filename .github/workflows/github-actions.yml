@@ -1,28 +1,35 @@
 name: Generate Snake
 
 on:
+  # run automatically every 6 hours
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *" 
+  
+  # allows to manually run the job at any time
   workflow_dispatch:
-
+  
+  # run on every push on the master branch
+  push: {branches: ["master", "main"]}
+    
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
-
+    timeout-minutes: 10
+    
     steps:
       - name: Checkout
         uses: actions/checkout@v2.3.4
-
+      # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
       - name: Generate Snake
         uses: Platane/snk@master
         id: snake-gif
         with:
           github_user_name: ${{ github.repository_owner }}
-          gif_out_path: ./assets/github-contribution-grid-snake.gif
-          svg_out_path: ./assets/github-contribution-grid-snake.svg
-
+          gif_out_path: ./contribution-snake/github-contribution-grid-snake.gif
+          svg_out_path: ./contribution-snake/github-contribution-grid-snake.svg
+          
       - name: Push to GitHub
         uses: EndBug/add-and-commit@v7.2.1
         with:
           branch: main
-          message: 'Generate Contribution Snake'  
+          message: ':rocket: Update Snake'

@@ -6,4 +6,4 @@
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=wwyyxxx&count_private=true&show_icons=true)
 
 <!-- 热门语言卡片 -->
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=wwyyxxx)
+<!-- ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=wwyyxxx) -->

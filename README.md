@@ -1,6 +1,6 @@
 # 👋🏻 Hey,
 <!-- 贪吃蛇绿点 -->
-<div align="center"><img src="https://cdn.jsdelivr.net/gh/wwyyxxx/wwyyxxx/contribution-snake/github-contribution-grid-snake.svg" /></div>
+<!-- <div align="center"><img src="https://cdn.jsdelivr.net/gh/wwyyxxx/wwyyxxx/contribution-snake/github-contribution-grid-snake.svg" /></div>-->
 
 # ***Tungbo Wang***
 ![](https://img.shields.io/badge/Android-Developer-brightgreen) ![](https://img.shields.io/badge/Kotlin-Lover-blueviolet) ![](https://img.shields.io/badge/Java-Enthusiast-yellow) ![](https://img.shields.io/badge/Exp-3+yrs-red)
@@ -29,7 +29,7 @@
 
 ### ✨ Keep Coding
 
-![我的 LeetCode 数据](https://stats.justsong.cn/api/leetcode/?username=Tungbo&cn=true)  ![Tungbo's GitHub stats](https://github-readme-stats.vercel.app/api?username=wwyyxxx&count_private=true&show_icons=true)
+<!--![我的 LeetCode 数据](https://stats.justsong.cn/api/leetcode/?username=Tungbo&cn=true)  ![Tungbo's GitHub stats](https://github-readme-stats.vercel.app/api?username=wwyyxxx&count_private=true&show_icons=true)-->
 
 <!-- 热门语言卡片 -->
 <!-- ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=wwyyxxx) -->
